@@ -1,4 +1,4 @@
-// CÛdigo da pr·tica da unidade 2 de IntroduÁ„o a ProgramaÁ„o (Nivelamento)
+// C√≥digo da pr√°tica da unidade 2 de Introdu√ß√£o a Programa√ß√£o (Nivelamento)
 
 #include <stdio.h>
 
@@ -13,8 +13,8 @@ main() {
 	printf("Digite o preco de compra: R$ ");
 	scanf("%f", &precomp);
 
-	imp = precomp * 0.35;
-	lucro = precomp * 0.47;
+	imp = precomp * 35 / 100;
+	lucro = precomp * 47 / 100;
 	prevend = precomp + imp + lucro;
 
 	printf("\nLISTA DOS DADOS DO PRODUTO");
