@@ -1,4 +1,4 @@
-// CÛdigo da pr·tica da unidade 1 de IntroduÁ„o a ProgramaÁ„o (Nivelamento)
+// C√≥digo da pr√°tica da unidade 1 de Introdu√ß√£o a Programa√ß√£o (Nivelamento)
 
 #include <stdio.h>
 
@@ -20,6 +20,8 @@ main() {
 	printf("\n+-----------------------------------------------------------------------+");
 	printf("\n| %6d | %12.2f | %7.2f | %5.2f | %11.2f | ************* |", codigo, precomp, 0.00, 0.00, 0.00);
 	printf("\n+-----------------------------------------------------------------------+");
-
+	
+	printf("\nFim de programa");
+	
 	getch();
 }
